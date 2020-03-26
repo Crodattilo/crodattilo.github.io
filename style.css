@@ -365,6 +365,6 @@ a{
     	display: none;
     {
     h3{
-        display: none;
+        visibility: hidden;
     }
 }
