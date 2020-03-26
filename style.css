@@ -364,7 +364,7 @@ a{
     .arrow{
     	display: none;
     {
-    h3{
-        visibility: hidden;
+    mark{
+        display: none;
     }
 }
