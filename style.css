@@ -342,6 +342,46 @@ a{
 	box-shadow: 0 0 8px 1px #57606f;
 }
 
+.card{
+    padding: 10px;
+    margin: 5px;
+    height: 220px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px -1px #2f3542;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.filetype{
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+h3{
+    height: 10%;
+}
+
+.description{
+    height: 50px;
+    font-size: 1em;
+}
+
+.p-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dff9fb;
+    background-color: #574b90;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 4px -1px #2f3542;
+    transition-duration: 0.4s;
+}
+.p-btn:hover{
+    box-shadow: 2px 2px 6px -1px #747d8c;
+}
+
 @media only screen and (max-width: 920px){
 	.inner-container{
 		margin-top: 100 px;
