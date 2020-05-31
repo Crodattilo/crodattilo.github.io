@@ -10,6 +10,15 @@ html{
 	cursor: url(data/images/cur.png), auto;
 }
 
+::-webkit-scrollbar{
+	width: 12px;
+	z-index: 90;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 6px;
+	background: linear-gradient(#1e90ff,#3742fa);
+}
+
 .title{
 	color: #2d3436;
 	text-align: center;
@@ -344,43 +353,43 @@ a{
 }
 
 .card{
-    padding: 10px;
-    margin: 5px;
-    height: 220px;
-    width: 250px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 6px -1px #2f3542;
-    display: inline-block;
-    transition-duration: 0.4s;
+	padding: 10px;
+	margin: 5px;
+	height: 220px;
+	width: 250px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 6px -1px #2f3542;
+	display: inline-block;
+	transition-duration: 0.4s;
 }
 
 .filetype{
-    height: 100px;
-    padding-bottom: 10px;
+	height: 100px;
+	padding-bottom: 10px;
 }
 
 h3{
-    height: 10%;
+	height: 10%;
 }
 
 .description{
-    height: 50px;
-    font-size: 1em;
+	height: 50px;
+	font-size: 1em;
 }
 
 .p-btn{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #dff9fb;
-    background-color: #574b90;
-    border-radius: 5px;
-    padding: 10px;
-    font-family: sans-serif;
-    box-shadow: 2px 2px 4px -1px #2f3542;
-    transition-duration: 0.4s;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #dff9fb;
+	background-color: #574b90;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: sans-serif;
+	box-shadow: 2px 2px 4px -1px #2f3542;
+	transition-duration: 0.4s;
 }
 .p-btn:hover{
-    box-shadow: 2px 2px 6px -1px #747d8c;
+	box-shadow: 2px 2px 6px -1px #747d8c;
 }
 
 @media only screen and (max-width: 920px){
@@ -399,13 +408,13 @@ h3{
 	h2{
 		font-size: 1.4em;
 	}
-    p.logo{
-    	display: none;
-    }
-    .arrow{
-    	display: none;
-    {
-    mark{
-        display: none;
-    }
+	p.logo{
+		display: none;
+	}
+	.arrow{
+		display: none;
+	{
+	mark{
+		display: none;
+	}
 }
