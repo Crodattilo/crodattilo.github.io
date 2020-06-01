@@ -273,12 +273,6 @@ mark {
 	text-decoration: none;
 }
 
-a{
-	margin-top: 20px;
-	font-size: 1.3em;
-	font-family: "Source Sans Pro", Sans Serif;
-}
-
 .btn{
 	display: inline-block;
 	width: 200px;
