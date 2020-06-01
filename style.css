@@ -108,6 +108,12 @@ hr {
 	margin-bottom:20px;
 }
 
+
+a{
+	margin-top: 20px;
+	font-size: 1.3em;
+}
+
 .button {
 	border-radius: 4px;
 	background-color: #11204f;
