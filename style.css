@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+    background-image: url("images/wallpaper.png");
+    background-size: 250px;
+    background-repeat: repeat;
+}
+
+.header{
+    color: #fff;
+    top: 0;
+    position: fixed;
+    background-color: #242c2c;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+}
+
+#logo{
+    padding-right: 10px;
+    vertical-align: middle;
+    height: 40px;
+}
+
+#title{
+    font-family: Cairo;
+    padding-left: 30px;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+.menu{
+    float: right;
+    padding-right: 20px;
+}
+
+.hl{
+    color: #fff;
+    font-family: RobotoB;
+    padding-left: 10px;
+    line-height: 60px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.hl:hover{
+    color: #C0C0C0;
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    min-height: 110%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.hero{
+    width: 100%;
+    height: 300px;
+    background: rgb(231,244,255);
+    background: linear-gradient(90deg, rgba(217,237,255,1) 0%, rgba(236,255,233,1) 100%);
+}
+.fade{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 100%);
+}
+
+.pic{
+    display: inline-block;
+    margin-top: 120px;
+    padding-left: 50px;
+    height: 100px;
+}
+
+.hero-div{
+    position: absolute;
+    top: 125px;
+    width: auto;
+    display: inline-block;
+}
+
+.hero-title{
+    line-height: 60px;
+    font-family: Cairo;
+    color: #3867d6;
+    padding-left: 10px;
+    font-size: 50px;
+}
+
+.hero-sub{
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+.lnk{
+    color: #4b7bec;
+}
+.lnk:hover{
+    color: #3742fa;
+}
+
+.widget-container{
+    background-color: #fff;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: 150px;
+    float: right;
+    border: 1px solid #f1f2f6;
+    border-radius: 5px;
+}
+
+.widget{
+    height: 30px;
+}
+
+.separator {
+    line-height: 50px;
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #2C3A47;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+.card{
+    border-bottom: 20px solid #fff;
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    background: rgb(241,242,246);
+    background: linear-gradient(90deg, rgba(241,242,246,1) 0%, rgba(241,242,246,1) 48%, rgba(255,255,255,1) 52%, rgba(255,255,255,1) 100%);
+    background-size: 200%;
+    background-position: 70% 0;
+}
+.card:hover{
+    animation: change .4s ease-in-out;
+    background-position: 0 100%;
+}
+
+.icon{
+    padding: 25px;
+    height: 150px;
+    display: inline-block;
+}
+
+.inline-div{
+    height: 200px;
+    position: absolute;
+    display: inline-block;
+}
+
+.title{
+    padding-top: 60px;
+    font-size: 30px;
+    color: #2f3542;
+}
+
+.sub{
+    padding-top: 10px;
+    color: #2f3542;
+}
+
+.download{
+    float: right;
+    padding-right: 25px;
+    line-height: 200px;
+    font-size: 30px;
+    color: #a5b1c2;
+}
+
+@keyframes change{
+    0%{
+        background-position: 70% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+
+@font-face{
+    font-family: Cairo;
+    src: url(fonts/Cairo-Regular.ttf);
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: RobotoB;
+    src: url(fonts/Roboto-Bold.ttf);
+}
