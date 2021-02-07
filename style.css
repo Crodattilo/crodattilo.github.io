@@ -112,8 +112,12 @@ body{
     margin-right: 50px;
     margin-top: 150px;
     float: right;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 5px;
+}
+
+.hero-widget{
+    line-height: 0;
 }
 
 .widget{
