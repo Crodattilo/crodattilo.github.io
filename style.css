@@ -116,12 +116,9 @@ body{
     border-radius: 5px;
 }
 
-.hero-widget{
-    line-height: 0;
-}
-
 .widget{
     height: 30px;
+    vertical-align: middle;
 }
 
 .separator {
