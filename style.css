@@ -107,12 +107,11 @@ body{
 }
 
 .widget-container{
-    background-color: #fff;
+    background-color: rgba(190, 235, 220, 0.3);
     padding: 5px;
     margin-right: 50px;
     margin-top: 150px;
     float: right;
-    border: 2px solid black;
     border-radius: 5px;
 }
 
